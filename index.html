@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/favicon.ico">
+  <title>ScanForm</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link href="/assets/sf.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="hero is-primary is-bold">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <img src="/assets/logo_round.png" alt="Logo">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="/" class="navbar-item is-active">Home</a>
+              <a href="/read-and-grade/" class="navbar-item">Aplikasi</a>
+              <a href="/doc.html" class="navbar-item">Dokumentasi</a>
+              <a href="/faq.html" class="navbar-item">FAQ</a>
+              <a href="#contact" class="navbar-item">Kontak</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">ScanForm</h1>
+        <p class="subtitle">
+          Memeriksa lembar jawaban pilihan ganda secara online.
+        </p>
+        <div>
+          <a href="/read-and-grade/" class="button is-primary is-inverted is-rounded">Mulai</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content">
+      <h4 class="title is-4">Fitur</h4>
+      <ul>
+        <li><strong>Gratis</strong>.</li>
+        <li><strong>Langsung pakai</strong>. Tidak perlu daftar. Tidak perlu login.</li>
+        <li>Lembar jawaban tidak memerlukan kertas khusus. Cukup dengan <strong>kertas fotokopi biasa</strong>.</li>
+        <li>
+          Hasil pemeriksaan lembar jawaban dilengkapi dengan <strong>analisis butir soal</strong> yang komprehensif.
+          Berikut adalah analisis untuk setiap nomor soal:
+          <ul>
+            <li>Jumlah siswa yang memilih pilihan tertentu.</li>
+            <li>Persentase siswa yang memilih pilihan tertentu.</li>
+            <li>Persentase siswa yang menjawab benar dan yang menjawab salah.</li>
+          </ul>
+        </li>
+        <li>Hasil pemeriksaan dan analisis butir soal <strong>disimpan ke file dalam format MS Excel</strong> agar bisa
+          dianalisis
+          lebih lanjut.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content">
+      <h4 class="title is-4">Cara Penggunaan</h4>
+      <ul>
+        <li>Cetak <a href="/assets/a4p_100q.pdf">lembar jawaban ini</a> di kertas <strong>A4</strong>.</li>
+        <li>Perbanyak lembar jawaban tersebut menggunakan mesin <strong>fotokopi</strong>.</li>
+        <li>Isi lembar jawaban dengan menggunakan <strong>pinsil 2B</strong>.</li>
+        <li>Pindai (<em>scan</em>) lembar jawaban yang sudah diisi.</li>
+        <li>Periksa file hasil pindai <a href="/read-and-grade/">di halaman web ini</a>.</li>
+      </ul>
+    </div>
+    <div class="has-text-centered">
+      <a href="/read-and-grade/" class="button is-primary is-rounded">Mulai</a>
+    </div>
+  </section>
+
+  <section class="section has-background-light">
+    <div class="container is-fluid">
+      <a name="contact"></a>
+      <h2 class="title is-4">Hubungi Kami</h2>
+      <div class="content">
+        <p>
+          Apabila anda memiliki pertanyaan atau saran untuk perbaikan aplikasi
+          <strong>Scan<span class="sf-green">Form</span></strong>, hubungi kami dengan menulis pesan
+          di bawah ini. Kami sangat menghargai segala bentuk partisipasi anda dalam
+          pengembangan alat bantu ini.
+        </p>
+      </div>
+
+      <form action="https://formspree.io/scanform.id@gmail.com" method="POST">
+        <div class="field">
+          <div class="control">
+            <input type="email" name="email" placeholder="E-mail anda" class="input">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <textarea name="message" placeholder="Tuliskan pesan anda." class="textarea"></textarea>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control has-text-centered">
+            <button type="submit" class="button is-link">Kirim</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">&copy; 2019 <strong>Scan<span class="sf-green">Form</span></strong></div>
+  </footer>
+
+</body>
+
+</html>
