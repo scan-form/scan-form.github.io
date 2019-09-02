@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico">
+  <title>ScanForm</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link href="sf.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container is-fluid">
+      <h1 class="title">Scan<span class="sf-green">Form</span> - Keterangan</h1>
+      <div class="content">
+        <p>
+          <strong>Scan<span class="sf-green">Form</span> Pilihan Ganda</strong>
+          adalah aplikasi web
+          <strong>gratis</strong> untuk memeriksa jawaban pilihan ganda. Form lembar
+          jawaban bisa anda download <a href="../assets/a4p_100q.pdf">di link ini</a>.
+          Cetak ke kertas ukuran <strong>A4</strong>, dan perbanyak form lembar jawaban tersebut dengan
+          <strong>mesin fotokopi</strong>.
+        </p>
+  
+        <p>
+          Untuk bisa menggunakan aplikasi ini, lembar jawaban yang sudah diisi harus
+          dipindai (<em>scan</em>) pada resolusi <strong>300 dpi</strong> dengan
+          format file <strong>PNG</strong> <em>black and white</em> (bukan <em>grayscale</em> atau
+          berwarna). Anda juga perlu menyiapkan kunci jawaban pada kertas form
+          tersebut untuk dipindai.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-fluid">
+      <h2 class="title is-4">Cara Menggunakan</h2>
+      <div class="content">
+        <p>
+          Keterangan untuk setiap isian pada aplikasi ini adalah sebagai berikut:
+        </p>
+  
+        <ul>
+          <li>
+            <strong>Jenis pekerjaan</strong>:
+            <ul>
+              <li>
+                <em>Baca form dan beri nilai</em>: membaca lembar jawaban dan memberi
+                nilai berdasarkan kunci jawaban yang anda berikan.
+              </li>
+              <li>
+                <em>Hanya baca form</em>: hanya membaca lembar jawaban, tanpa memberi nilai.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Jumlah pertanyaan</strong>: cukup jelas.
+          </li>
+          <li>
+            <strong>Kunci jawaban</strong>: pilih file hasil scan lembar jawaban
+            yang telah anda isi dengan kunci jawaban.
+          </li>
+          <li>
+            <strong>Form jawaban</strong>: pilih 1 sampai 50 file scan lembar jawaban
+            yang akan diperiksa.
+          </li>
+          <li>
+            <strong>Daftar nama dan ID</strong> (opsional): Jika anda menginginkan
+            hasil pembacaan form memiliki kolom nama, maka anda perlu menyediakan file
+            daftar nama dan nomor ID dalam format file CSV. Untuk membuat file
+            tersebut, anda bisa menggunakan program MS Excel, atau Google Spreadsheet
+            dan menyimpannya dalam format CSV. File daftar ini harus terdiri dari dua
+            kolom, di mana kolom pertama harus berisi nomor ID, dan kolom ke dua
+            berisi nama. Baris pertama berisi judul kolom. Anda bisa melihat contohnya
+            <a href="../assets/contoh-daftar-nama.csv">di link ini</a>.
+          </li>
+        </ul>
+  
+        <p>
+          Klik tombol <strong>Proses</strong> untuk memulai proses pembacaan form.
+          Tunggu beberapa saat sampai aplikasi <strong>Scan<span class="sf-green">Form</span></strong> menampilkan hasilnya. Anda
+          bisa menyimpan hasil pembacaan form ini ke dalam file MS Excel dengan
+          mengklik tombol <strong>Save Hasil</strong>. Jika jenis pekerjaan yang anda
+          tentukan adalah <strong>Baca form dan beri nilai</strong>, maka akan ada tombol
+          <strong>Save Analisis Soal</strong> yang bisa anda klik untuk menyimpan data
+          hasil analisis butir soal (dalam format file MS Excel).
+        </p>
+  
+        <p>
+          Apabila ada file scan yang tidak bisa dibaca, <strong>Scan<span class="sf-green">Form</span></strong> akan menampilkan nama
+          filenya untuk anda periksa.
+        </p>
+  
+        <p>
+          <strong>Scan<span class="sf-green">Form</span></strong> bisa membaca sampai 50 lembar jawaban dalam satu kali proses
+          pembacaan. Apabila anda memiliki lebih dari 50 lembar jawaban, maka anda
+          bisa memproses sisanya dengan mengisi kembali isian <strong>Form
+            jawaban</strong> dengan sisa file scan tersebut, dan selanjutnya tinggal
+          klik tombol <strong>Proses</strong>.
+        </p>
+  
+        <p>
+          Tombol <strong>Reset</strong> bisa anda klik apabila anda ingin memulai lagi
+          proses dari awal.
+        </p>
+
+        <blockquote class="blockquote">
+          Untuk mencoba, silakan <a href="../assets/contoh-scanform.zip">download
+          contoh file berikut</a>. Ekstrak file tersebut ke satu folder,
+          kemudian gunakan file-file tersebut sebagai input aplikasi web ini.
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-fluid">
+      <h2 class="title is-4">Web Browser</h2>
+      <div class="content">
+        <p>
+            <strong>Scan<span class="sf-green">Form</span></strong> memerlukan salah satu dari web browser berikut:
+          <ul>
+            <li>
+              <a href="https://www.google.com/chrome/">Google Chrome</a> versi 74 atau
+              yang terbaru.
+            </li>
+            <li>
+              <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> versi
+              66 atau yang terbaru.
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section has-background-grey-lighter">
+    <div class="container is-fluid">
+      <h2 class="title is-4">Hubungi Kami</h2>
+      <div class="content">
+        <p>
+          Apabila anda memiliki pertanyaan atau saran untuk perbaikan aplikasi 
+          <strong>Scan<span class="sf-green">Form</span></strong>, hubungi kami 
+          dengan menulis pesan di bawah ini. Kami sangat menghargai segala 
+          bentuk partisipasi anda dalam pengembangan alat bantu ini.
+        </p>
+      </div>
+  
+      <form action="https://formspree.io/scanform.id@gmail.com" method="POST">
+        <div class="field">
+          <div class="control">
+            <input type="text" name="name" placeholder="Nama anda" class="input">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <input type="email" name="email" placeholder="E-mail anda" class="input">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <textarea name="message" placeholder="Tuliskan pesan anda." class="textarea"></textarea>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control has-text-centered">
+            <button type="submit" class="button is-link">Kirim</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">&copy; 2019 <strong>Scan<span class="sf-green">Form</span></strong></div>
+  </footer>
+</body>
+
+</html>
