@@ -14,31 +14,8 @@
 <body>
   <section class="section">
     <div class="container is-fluid">
-      <h1 class="title">Scan<span class="sf-green">Form</span> - Keterangan</h1>
-      <div class="content">
-        <p>
-          <strong>Scan<span class="sf-green">Form</span> Pilihan Ganda</strong>
-          adalah aplikasi web
-          <strong>gratis</strong> untuk memeriksa jawaban pilihan ganda. Form lembar
-          jawaban bisa anda download <a href="../assets/a4p_100q.pdf">di link ini</a>.
-          Cetak ke kertas ukuran <strong>A4</strong>, dan perbanyak form lembar jawaban tersebut dengan
-          <strong>mesin fotokopi</strong>.
-        </p>
-  
-        <p>
-          Untuk bisa menggunakan aplikasi ini, lembar jawaban yang sudah diisi harus
-          dipindai (<em>scan</em>) pada resolusi <strong>300 dpi</strong> dengan
-          format file <strong>PNG</strong> <em>black and white</em> (bukan <em>grayscale</em> atau
-          berwarna). Anda juga perlu menyiapkan kunci jawaban pada kertas form
-          tersebut untuk dipindai.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-fluid">
-      <h2 class="title is-4">Cara Menggunakan</h2>
+        <h1 class="title">Scan<span class="sf-green">Form</span> - Custom Form</h1>
+        <h2 class="title is-4">Cara Menggunakan</h2>
       <div class="content">
         <p>
           Keterangan untuk setiap isian pada aplikasi ini adalah sebagai berikut:
@@ -58,6 +35,16 @@
             </ul>
           </li>
           <li>
+            <strong>Kode Form</strong>: setiap form khusus memiliki kode dan
+            spesifikasi tersendiri. Kode form bisa dilihat berupa angka yang
+            terletak pada bagian bawah lembar jawaban (tepat di bawah <em>barcode</em>).
+            Untuk mengisi <strong>Kode Form</strong>, anda harus memasukkan <strong>Token Akses</strong>
+            yang kami kirimkan dengan cara mengklik tombol <strong>Token</strong>,
+            lalu ketikkan token akses tersebut di kotak dialog dan akhiri dengan
+            mengklik tombol <strong>OK</strong>. Jika berhasil, bagian ini akan menampilkan
+            kode yang sama dengan kode yang ada pada bagian bawah lembar jawaban.
+          </li>
+          <li>
             <strong>Jumlah pertanyaan</strong>: cukup jelas.
           </li>
           <li>
@@ -65,7 +52,7 @@
             yang telah anda isi dengan kunci jawaban.
           </li>
           <li>
-            <strong>Form jawaban</strong>: pilih 1 sampai 50 file scan lembar jawaban
+            <strong>Form jawaban</strong>: pilih 1 sampai 500 file scan lembar jawaban
             yang akan diperiksa.
           </li>
           <li>
@@ -96,8 +83,9 @@
         </p>
   
         <p>
-          <strong>Scan<span class="sf-green">Form</span></strong> bisa membaca sampai 50 lembar jawaban dalam satu kali proses
-          pembacaan. Apabila anda memiliki lebih dari 50 lembar jawaban, maka anda
+          <strong>Scan<span class="sf-green">Form</span></strong> untuk <em>custom
+          form</em> bisa membaca sampai 500 lembar jawaban dalam satu kali proses
+          pembacaan. Apabila anda memiliki lebih dari 500 lembar jawaban, maka anda
           bisa memproses sisanya dengan mengisi kembali isian <strong>Form
             jawaban</strong> dengan sisa file scan tersebut, dan selanjutnya tinggal
           klik tombol <strong>Proses</strong>.
@@ -107,12 +95,6 @@
           Tombol <strong>Reset</strong> bisa anda klik apabila anda ingin memulai lagi
           proses dari awal.
         </p>
-
-        <blockquote class="blockquote">
-          Untuk mencoba, silakan <a href="../assets/contoh-scanform.zip">download
-          contoh file berikut</a>. Ekstrak file tersebut ke satu folder,
-          kemudian gunakan file-file tersebut sebagai input aplikasi web ini.
-        </blockquote>
       </div>
     </div>
   </section>
@@ -176,7 +158,9 @@
   </section>
 
   <footer class="footer">
-    <div class="content has-text-centered">&copy; 2019 <strong>Scan<span class="sf-green">Form</span></strong></div>
+    <div class="content has-text-centered">
+      &copy; 2019 <strong>Scan<span class="sf-green">Form</span></strong>
+  </div>
   </footer>
 </body>
 
